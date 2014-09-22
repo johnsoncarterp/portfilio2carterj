@@ -12,3 +12,16 @@ div{
 .row{
     border-color: red;
 }
+
+body {
+    background-color: cyan;
+}
+
+.list-group-item {
+    border: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: cyan;
+    font-family: monospace;
+    font-size: 20px;
+}
