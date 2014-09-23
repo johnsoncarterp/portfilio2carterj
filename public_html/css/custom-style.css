@@ -14,9 +14,8 @@ div{
 }
 
 body {
-    background-color: cyan;
+    background-color: lightgrey;
 }
-
 .list-group-item {
     border: 0;
     margin-top: 50px;
@@ -24,4 +23,12 @@ body {
     background-color: cyan;
     font-family: monospace;
     font-size: 20px;
+}
+
+body{
+    font-size: 20px;
+}
+
+article a {
+    color: cyan;    
 }
