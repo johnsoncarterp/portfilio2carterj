@@ -5,17 +5,14 @@ div{
     padding: 30px;
 }
 
-.container{
-    border-color: blue;
-}
-
 .row{
-    border-color: red;
+    border-color: cyan;
+    border-radius: 100px;
 }
-
 body {
-    background-color: lightgrey;
+    background-color: grey;
 }
+/*background color*/
 .list-group-item {
     border: 0;
     margin-top: 50px;
@@ -36,3 +33,14 @@ article a {
 p{
     font-family: monospace;
 }
+
+h1{
+    color:cyan;
+}
+
+p{
+    color:lightgray;
+}
+
+
+
