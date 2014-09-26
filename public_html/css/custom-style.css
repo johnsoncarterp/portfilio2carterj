@@ -4,11 +4,14 @@ div{
     border-color: green;
     padding: 30px;
 }
+    /*my div style*/
 
 .row{
     border-color: cyan;
     border-radius: 100px;
 }
+      /*my row style*/
+      
 body {
     background-color: grey;
 }
@@ -21,26 +24,48 @@ body {
     font-family: monospace;
     font-size: 20px;
 }
+/*my list group item style*/
 
 body{
     font-size: 20px;
 }
+/*my bodys text size*/
 
 article a {
-    color: cyan;    
+    color: cyan;
 }
+/*my links colors*/
 
 p{
     font-family: monospace;
 }
+/*my font for my text*/
 
 h1{
     color:cyan;
 }
+/*my h1 color*/
 
 p{
     color:lightgray;
 }
+/*my color for my text*/
 
+h3{
+    text-align: center;
+    font-family: impact;
+    color: cyan;
+}
+/*myy h3 style*/
 
+.carousel{
+    border-color: cyan;
+    border-radius: 100px;
+}
+/*my carousel style*/
 
+.jumbotron{
+    border-color: cyan;
+    border-radius: 100px;
+}
+/*my jumbotron style*/
