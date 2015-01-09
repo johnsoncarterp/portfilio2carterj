@@ -5,11 +5,14 @@
  */
 
 
-$("document").ready(function(){
-$(".practice").css("background-color", "cyan");    
-$('p:last').css({"background-color": "green", "color": "white"}); 
-$('a').css({"background-color": "black", "color": "white"});    
-    
+$("document").ready(function() {
+    $(".practice").css("background-color", "cyan");
+    $('p:last').css({"background-color": "green", "color": "white"});
+    $('a').css({"background-color": "black", "color": "white"});
+    $('carter').bind('click',alertButtonClick);
 });
 
 
+function alertButtonClick() {
+    alert("there was a button clicked");
+}
