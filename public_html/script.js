@@ -14,7 +14,10 @@ $("document").ready(function() {
     $("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
     $("#cj").bind('click', replaceWText);
     $("#apple").bind('click', removeAPara);
-    $("#cool").bind('click', addAPara)
+    $("#cool").bind('click', addAPara);
+    $("#hideLogo").bind('click', hidetheLogo);
+    $("#showLogo").bind('click', showtheLogo);
+    
 });
 
 
@@ -39,9 +42,17 @@ function replaceWText() {
 }
 
 function removeAPara() {
-    $('#apple p:last').remove();
+    $('#app p:last').remove();
 }
 
 function addAPara() {
-    $('#cool').append('<p>another paragraph</p>');
+    $('#app').append('<p>another paragraph</p>');
+}
+
+function hidetheLogo() {
+    $("#image")
+}
+
+function showtheLogo() {
+    $("#image")
 }
